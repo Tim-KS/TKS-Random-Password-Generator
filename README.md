@@ -23,7 +23,17 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```md
     ![alt text](assets/images/screenshot.png)
     ```
-1. Once on the landing page, press generate to start the process
-2. Enter the desired password length
-3. Select password character types as needed (lowercase prompt in example)
-4. Password will generate on screen once all prompts are complete, you will be able to copy it wherever desired
+### 1. Once on the landing page, press generate to start the process
+![Landing page](main/Assets/images/Default.png)
+### 2. Enter the desired password length
+![Password length prompt](main/Assets/images/Parameter1.png)
+### 3. Select password character types as needed (lowercase prompt in example)
+![Password parameters](main/Assets/images/Parameter2.png)
+### 4. Password will generate on screen once all prompts are complete, you will be able to copy it wherever desired
+![Completed password displayed](main/Assets/images/FinishedEgAllData.png)
+
+## Error messages
+- ### When entering a number that is outside 8 and 128 characters, you will get the following error.
+![Invalid password length](main/Assets/images/invalidLength.png)
+- ### When entering an invalid character into the password length (a letter or a special character), you will get the following error.
+![Invalid character in length](main/Assets/images/InvalidChar.png)
